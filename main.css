@@ -1,0 +1,147 @@
+*{
+	margin: 0; 
+	padding: 0;
+   box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+body {
+	background: url(img/bcgr.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.all {
+
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+	background-color: none;
+}
+.topmenu {
+	font-family: tahoma;
+	width: 990px;
+	height: 30px;
+	margin: auto;
+	background-color: rgb(7,79,143); 
+	color: red;
+
+}
+.topmenu li{float: right;
+	margin:auto;
+}
+
+}
+.topmenu ul:{
+	
+}
+.topmenu li:hover ul{
+	display: block;
+}
+.topmenu a {
+	text-decoration: none;
+	padding-top: 5px;
+	padding-left: 10px;
+ 	padding-right: 10px;
+	font-family: tahoma;
+	font-size: 10pt;
+	color:rgb(96,181,237);  
+	font-weight: 400;
+	display: block;
+ 	height: 30px;
+
+
+}
+.topmenu a:hover {
+	background-color: rgb(96,181,237);
+	color: white;
+	text-decoration: underline;
+}
+
+.topmenu ul {
+	padding-top: 0px;
+	position: relative;
+
+}
+
+
+
+
+
+
+
+.container h1 {
+	padding-top: 15px;
+	color: white;
+	font-family: tahoma;
+	font-size: 15pt;
+	font-weight: 100px;
+}
+
+
+.container a{
+	color: white;
+}
+.container a img {
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+.container {
+	width: 500px;
+	height: 550px;
+	background: url(img/bg.png);
+	margin: 100px auto 0px;
+	text-align: center;
+}
+input[type="text"],input[type="password"],input[type="email"] {
+	width: 270px;
+	height: 35px;
+	font-size: 14px;
+margin-bottom: 15px;
+padding-left: 10px;
+background-color:rgb(15,15,15);
+border: none;
+border-bottom: 1px solid  gray;
+}
+input[type="text"]:hover {
+background: rgb(27,82,136);
+color:white;
+}
+input[type="password"]:hover {
+background: rgb(27,82,136);
+}
+input ::-webkit-input-placeholder {
+	color: white;
+}
+::-webkit-input-placeholder{
+	color: white;
+}
+.checkbox + label{
+	color: white;
+	font-family: tahoma;
+	font-weight: 100px;
+	font-size: 15px;
+}
+
+button {
+	background:url(img/but.png);
+	border-radius: 3px;
+	border: none;
+	height: 30px;
+	width: 180px;
+	color: white;
+	font-family: tahoma;
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+.foot {
+	padding-top: 20px;
+	font-size: 11px;
+	font-family: tahoma;
+}
